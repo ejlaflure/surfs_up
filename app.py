@@ -84,6 +84,6 @@ def stats(start=2017-6-1, end=2017-6-30):
     return jsonify(temps)
 
 if __name__ == "__main__":
-  app.run(debug=True)
+    app.run(debug=True)
 
 # run /api/v1.0/temp/2017-06-01/2017-06-30
